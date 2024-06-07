@@ -1,0 +1,24 @@
+html, body {
+    --head-foot-color: #334257;
+}
+
+.footer , .header{
+    text-align: center;
+    background-color: var(--head-foot-color);
+    color: white;
+}
+
+
+
+
+#nav {
+    display: flex;
+    gap: 30px;
+
+}
+.push {
+    margin-left: auto;
+}
+#headline {
+    font-size: 48px;
+}
