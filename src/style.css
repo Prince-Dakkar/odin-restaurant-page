@@ -1,24 +1,70 @@
 html, body {
-    --head-foot-color: #334257;
+    --head-foot-color: #000000;
+    min-width: 600px;
 }
-
 .footer , .header{
     text-align: center;
     background-color: var(--head-foot-color);
     color: white;
 }
-
-
-
-
+.header {
+    height: 100px;
+    margin-bottom: 0px;
+    /* border: 2px solid green;
+    display: flex; */
+    /* flex-direction: column; */
+    align-items:baseline;
+}
+.footer {
+    height: 20px;
+    margin-top: -20px;
+}
+#headline {
+    font-size: 48px;
+    position: relative;
+    top: -25px;
+    left: 10px;
+    font-weight: bold;
+}
 #nav {
     display: flex;
-    gap: 30px;
-
+    gap: 20px;
+    align-items: center;
+    /* border: 2px solid red;
+    width: 1000px; */
+    
 }
 .push {
     margin-left: auto;
 }
-#headline {
-    font-size: 48px;
+.nav-b {
+    height: 50px;
+    width: 70px;
 }
+#content {
+    background-color: #000;
+}
+#content-c {
+    background-image: url("../src/hannibal_table.png");
+    background-size:fill;
+    height: calc(100vh - 130px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+
+
+/*------------------- Common to all tabs ----------------------- */
+#opaque-d {
+    background-color: black;
+    opacity: .8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+

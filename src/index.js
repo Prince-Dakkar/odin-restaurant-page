@@ -20,4 +20,4 @@ contact.addEventListener("click", () => {
 });
 
 /** Load home initially */
-// load_home();
+load_home();
